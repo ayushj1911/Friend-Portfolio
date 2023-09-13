@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MAIN SECTION */
+.main-container {
+  background-color: black;
+  padding-top: 20px;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+  background-color: #363636ad;
+  width: 60%;
+  margin: 0 auto 100px;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.navbar,
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 55px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background: #6e03f3;
+  border-radius: 50%;
+}
+
+.logo svg {
+  width: 20px;
+  height: 30px;
+}
+
+/* ABOUT SECTION */
+.about-container {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.name {
+  font-size: 70px;
+  display: grid;
+  place-items: center;
+}
+
+.skill {
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+  padding: 40px 0 60px;
+}
+
+.experience {
+  width: 48%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.go-down {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  bottom: -35px;
+  left: 47%;
+}
+
+/* SAME WIDTH FOR LEFT SECTIONS */
+.same-size {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/* APPROACH SECTION */
+.approach .p {
+  padding: 22px 0 40px;
+}
+
+.diagrams {
+  position: relative;
+  margin-top: 25px;
+  width: 1079px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.diagram-same {
+  display: inline-block;
+  position: absolute;
+}
+
+.diagram-same p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: #000;
+}
+
+#diagram-second {
+  left: 25%;
+  bottom: 0;
+  z-index: 1;
+}
+
+#diagram-third {
+  right: 25%;
+}
+
+#diagram-third p {
+  width: 50%;
+  top: 40%;
+}
+
+.approach-svg {
+  width: 300px;
+}
+
+#equal {
+  position: absolute;
+  right: 18%;
+  top: 40%;
+}
+
+#sum {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 12%;
+  right: 2%;
+  position: absolute;
+  right: 0;
+  background-color: #e0e0e0;
+}
+
+#sum p {
+  color: #ff6427;
+  position: absolute;
+  width: 50%;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+}
+
+/* Process Section */
+
+.process h2 {
+  margin-bottom: 50px;
+}
+
+/* Process First */
+#process-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+#process-first .left {
+  position: relative;
+  width: 395px;
+}
+
+#process-first .left .mobile {
+  width: 223px;
+  height: 483px;
+  border: 5px double gray;
+  border-radius: 20px;
+}
+
+#process-first .left .person {
+  position: absolute;
+  left: 38px;
+  top: -9px;
+}
+
+#process-first .left .circle {
+  position: absolute;
+  top: 76px;
+  left: 60px;
+}
+
+#process-first .left .dots-group {
+  position: absolute;
+  bottom: 24px;
+  left: 20px;
+}
+
+#process-first .right {
+  width: 50%;
+  height: max-content;
+  margin: auto;
+  padding-left: 90px;
+}
+
+.process-span {
+  font-size: 30px;
+}
+
+.process div p {
+  margin: 25px 0;
+}
+
+/* Process Second */
+#process-second {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0;
+}
+
+#process-second .left {
+  width: 50%;
+  height: max-content;
+  margin: auto 0;
+}
+
+#process-second .clock {
+  width: 200px;
+}
+
+/* Process Third */
+#process-third {
+  display: flex;
+  justify-content: space-between;
+}
+
+#process-third .table {
+  width: 300px;
+}
+
+#process-third .right {
+  width: 50%;
+  height: max-content;
+  margin: auto 0;
+}
+
+/* Work Section */
+.work {
+  background: #000;
+  color: #fff;
+}
+
+.work h2 {
+  padding: 40px 0;
+  margin: auto;
+  width: max-content;
+}
+
+/* Same Work */
+.work .same-work {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+/* Work First */
+.work .work-first .fashion {
+  width: 500px;
+}
+
+.work-first .right p {
+  margin-left: 80px;
+}
+
+/* Work Second */
+.work-second {
+  padding-top: 80px;
+}
+
+.work-second .left {
+  height: max-content;
+  margin: auto;
+}
+
+.work-second .left h2 {
+  margin: 0;
+}
+
+.work-second .left p {
+  width: 80%;
+}
+
+.work-second .ebook {
+  width: 500px;
+}
+
+/* Work Third */
+.work-third {
+  padding-top: 80px;
+}
+
+.work-third .ottshow {
+  width: 500px;
+}
+
+.work-third .right {
+  height: max-content;
+  margin: auto;
+}
+
+.work-third .right p {
+  margin-left: 80px;
+}
+
+/* Work Fourth */
+.work-fourth {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.work-fourth .left {
+  height: max-content;
+  margin: auto;
+}
+
+.work-fourth .left h2 {
+  margin: 0;
+}
+
+.work-fourth .left p {
+  width: 80%;
+}
+
+.work-fourth .pet {
+  width: 500px;
+}
+
+/* Footer Section */
+footer {
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+footer h2 {
+  width: max-content;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+footer div {
+  position: relative;
+  width: max-content;
+  margin: auto;
+}
+
+footer #pose-dress::before {
+  content: "";
+  position: absolute;
+  filter: blur(217.5px);
+  backdrop-filter: blur(275px);
+  border-radius: 400px;
+  background-color: #5406b4cc;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+footer .dress {
+  position: absolute;
+  top: 78px;
+  left: 0;
+}
+
+.pose {
+  position: relative;
+}
+
+.websites {
+  margin-top: 55px;
+}
+
+.websites a {
+  display: inline-block;
+  padding: 45px;
+}
